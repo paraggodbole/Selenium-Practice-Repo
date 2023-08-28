@@ -43,7 +43,7 @@ public class ImageLinkedin {
         driver.findElement(By.xpath("//input[@id='session_key'] ")).sendKeys("paraggodbole07@gmail.com");
         // Enter Password Using Locator "XPath" //input[@id='session_password'] |
         // sendKeys("Password")
-        driver.findElement(By.xpath("//input[@id='session_password']")).sendKeys("pakshi@3555");
+        driver.findElement(By.xpath("//input[@id='session_password']")).sendKeys("******");
         // Click on SignIn Using Locator "XPath" //button[contains(text(),'Sign
         // in')].click()
         driver.findElement(By.xpath("//button[contains(text(),'Sign in')]")).click();
